@@ -6,6 +6,7 @@
 
 **Fecha:** 14 de abril de 2026  
 **Tipo:** Auditoría Digital 360°  
+**Enfoque:** Presencia Digital, Visibilidad, Confianza y Captación  
 **Clasificación:** Confidencial
 
 ---
@@ -47,7 +48,7 @@
 
 | Competidor | Web | SEO | Google Business | Estado |
 |------------|-----|-----|-----------------|--------|
-| Síbarys | 🚧 En construcción | ❌ | ❌ | **El nuestro** |
+| **Síbarys** | 🚧 En construcción | ❌ | ❌ | **El nuestro** |
 | Asunción Transfers | ✅ Basic | ⚠️ Débil | ✅ | Captando tráfico |
 | Aquila | ✅ Basic | ⚠️ Débil | ✅ | Captando tráfico |
 | Traslados Paraguay | ✅ Basic | ⚠️ Débil | ✅ | Captando tráfico |
@@ -80,9 +81,50 @@
 
 ---
 
-# 5. LO QUE NECESITA SÍBARYS
+# 5. ANÁLISIS TÉCNICO
 
-## Infrastructura digital completa
+## Dominio y Hosting
+
+| Elemento | Estado | Detalle |
+|----------|--------|---------|
+| Dominio principal | ✅ Registrado | `sibarys.com.py` — NS activo |
+| WWW record | ✅ Funciona | Redirige correctamente |
+| Dominio .com | ❌ No registrado | Oportunidad de protección de marca |
+| Website público | 🚧 EN CONSTRUCCIÓN | Solo texto "Sitio en Construcción" |
+| SSL/HTTPS | ⚠️ Sin configurar | Puerto 80 responde, sin redirect a HTTPS |
+| Hosting | Compartido genérico | ns720.websitewelcome.com |
+
+**Contenido actual visible:**
+```
+🚧 Sitio en Construcción 🚧
+Estamos trabajando para ofrecerte una nueva experiencia.
+Volvé pronto para descubrir nuestras novedades.
+© 2025 Todos los derechos reservados
+```
+
+Esto es **TODO** lo que existe públicamente. Ni teléfono, ni servicios, ni horarios, ni propuesta de valor.
+
+---
+
+## Análisis de Descubrimiento
+
+**Pregunta:** Si un potencial cliente corporativo busca "transporte corporativo Asunción" o "traslados ejecutivos Paraguay" en Google, ¿encuentra a Síbarys?
+
+**Respuesta: NO. Completamente invisible.**
+
+| Keyword | Síbarys aparece? | Quién aparece? |
+|---------|------------------|---------------|
+| "transporte corporativo Asunción" | ❌ NO | Resultados mezclados, pocos locales |
+| "traslados ejecutivos Asunción" | ❌ NO | Asunción Transfers (pos 1-3) |
+| "transfer aeropuerto Asunción" | ❌ NO | Traslados Paraguay (pos 1-3) |
+| "servicio de chofer Asunción" | ❌ NO | Aquila (pos 1-3) |
+| "remis ejecutivo Paraguay" | ❌ NO | Sin resultados locales fuertes |
+
+---
+
+# 6. INFRAESTRUCTURA RECOMENDADA
+
+## Lo que necesita Síbarys para ser encontrado
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -91,32 +133,18 @@
 │                                                         │
 │   ┌─────────┐    ┌──────────┐    ┌──────────────────┐  │
 │   │  WEB    │───▶│   SEO    │───▶│   GOOGLE ADS    │  │
-│   │Premium  │    │  Local   │    │   + Remarketing  │  │
+│   │Premium  │    │  Local   │    │   + Remarketing │  │
 │   └─────────┘    └──────────┘    └──────────────────┘  │
 │        │                                    │           │
 │        ▼                                    ▼           │
 │   ┌─────────┐                      ┌──────────────┐    │
 │   │ GOOGLE  │                      │     CRM      │    │
-│   │ BUSINESS│                      │  + Leads     │    │
+│   │ BUSINESS │                      │  + Leads     │    │
 │   │ PROFILE │                      └──────────────┘    │
 │   └─────────┘                                         │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
-
----
-
-# 6. ROI PROYECTADO
-
-## Con inversión inteligente
-
-| Escenario | Inversión inicial | Ingreso recuperable/año | ROI 12 meses |
-|-----------|------------------|------------------------|--------------|
-| Conservador | ₲ 25,000,000 | ₲ 36,000,000 | **44%** |
-| Recomendado | ₲ 50,000,000 | ₲ 120,000,000 | **140%** |
-| Acelerado | ₲ 80,000,000 | ₲ 200,000,000+ | **200%+** |
-
-**Break-even estimado:** 3-6 meses con el paquete correcto.
 
 ---
 
@@ -131,4 +159,5 @@
 
 ---
 
-**Próximo paso:** Revisar la propuesta comercial con planes adaptados a cada presupuesto.
+**Documento preparado por:** Agencia Maite Media  
+**Contacto:** hola@agenciamaitemedia.com · +595 972 901 942
