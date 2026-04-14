@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditoría Digital 360° | Síbarys Paraguay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --dark: #0D0D0D;
+            --dark-2: #1A1A1A;
+            --dark-3: #2A2A2A;
+            --gold: #C9A962;
+            --gold-light: #D4B978;
+            --cream: #F5F0E8;
+            --text: #E0E0E0;
+            --text-muted: #888888;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--dark);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            font-weight: 600;
+            color: var(--gold);
+            margin: 48px 0 24px;
+        }
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #fff;
+            margin: 24px 0 12px;
+        }
+        p { margin-bottom: 16px; }
+        .subtitle {
+            font-size: 1.125rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: block;
+        }
+        .meta {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            padding: 24px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 48px;
+        }
+        .highlight {
+            background: var(--gold);
+            color: var(--dark);
+            padding: 24px;
+            border-radius: 4px;
+            margin: 32px 0;
+        }
+        .highlight p {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            font-size: 0.9375rem;
+        }
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        th {
+            font-weight: 600;
+            color: var(--gold);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        tr:hover { background: rgba(255,255,255,0.02); }
+        .critical { color: #e74c3c; }
+        .warning { color: #f39c12; }
+        .success { color: #2ecc71; }
+        .diagram {
+            background: var(--dark-2);
+            padding: 24px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.8125rem;
+            line-height: 1.5;
+            overflow-x: auto;
+            margin: 24px 0;
+            white-space: pre;
+        }
+        ul {
+            list-style: none;
+            margin: 16px 0;
+        }
+        li {
+            padding: 8px 0;
+            padding-left: 24px;
+            position: relative;
+        }
+        li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+        }
+        .steps li::before { content: none; }
+        .steps li {
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .step-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: var(--gold);
+            color: var(--dark);
+            font-size: 0.75rem;
+            font-weight: 700;
+            border-radius: 50%;
+        }
+        .done .step-num { background: #2ecc71; color: #fff; }
+        .divider {
+            border: none;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin: 48px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 48px 24px;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 48px;
+        }
+        .footer-logo {
+            height: 50px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="label">Auditoría Digital 360°</span>
+        <h1>Síbarys Paraguay</h1>
+        <p class="subtitle">Transporte Ejecutivo · Asunción, Paraguay</p>
+        
+        <div class="meta">
+            <strong>Fecha:</strong> 14 de abril de 2026 &nbsp;|&nbsp; 
+            <strong>Tipo:</strong> Auditoría Digital 360° &nbsp;|&nbsp; 
+            <strong>Clasificación:</strong> Confidencial
+        </div>
+
+        <h2>1. Resumen Ejecutivo</h2>
+        <h3>El diagnóstico</h3>
+        <div class="highlight">
+            <p>Síbarys tiene todo para ganar — pero hoy es invisible online.</p>
+        </div>
+        
+        <ul>
+            <li>Dominio <code>sibarys.com.py</code> registrado pero sitio dice "en construcción" desde 2025</li>
+            <li>Cero presencia en Google (búsquedas orgánicas)</li>
+            <li>Sin Google Business Profile</li>
+            <li>Sin sistema de captación de leads</li>
+            <li>Sin credibilidad digital verificable</li>
+        </ul>
+
+        <p><strong>El resultado:</strong> clientes corporativos que buscan transporte en Asunción encuentran a la competencia, no a Síbarys.</p>
+
+        <hr class="divider">
+
+        <h2>2. Costo de Inacción</h2>
+        <h3>Lo que se pierde por mes sin presencia digital</h3>
+
+        <table>
+            <tr>
+                <td>Clientes perdidos por falta de web (conservador)</td>
+                <td style="text-align:right"><strong>₲ 3,000,000/mes</strong></td>
+            </tr>
+            <tr>
+                <td>Contratos corporativos no captados</td>
+                <td style="text-align:right"><strong>₲ 10,000,000/mes</strong></td>
+            </tr>
+            <tr style="background: rgba(201,169,98,0.1)">
+                <td><strong>Total perdido por mes</strong></td>
+                <td style="text-align:right"><strong style="color: var(--gold)">₲ 13,000,000</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Total perdido por año</strong></td>
+                <td style="text-align:right"><strong style="color: var(--gold); font-size: 1.25rem">₲ 156,000,000</strong></td>
+            </tr>
+        </table>
+
+        <p>Esto equivale a <strong>~USD 22,000/año</strong> en un mercado donde la competencia digital es prácticamente nula.</p>
+
+        <hr class="divider">
+
+        <h2>3. Análisis de Competencia Digital</h2>
+        <h3>Situación actual del mercado en Asunción</h3>
+
+        <table>
+            <tr>
+                <th>Competidor</th>
+                <th>Web</th>
+                <th>SEO</th>
+                <th>Google Business</th>
+                <th>Estado</th>
+            </tr>
+            <tr style="background: rgba(231,76,60,0.1)">
+                <td><strong>Síbarys</strong></td>
+                <td>🚧 En construcción</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td><strong class="critical">El nuestro</strong></td>
+            </tr>
+            <tr>
+                <td>Asunción Transfers</td>
+                <td>✅ Basic</td>
+                <td>⚠️ Débil</td>
+                <td>✅</td>
+                <td class="success">Captando tráfico</td>
+            </tr>
+            <tr>
+                <td>Aquila</td>
+                <td>✅ Basic</td>
+                <td>⚠️ Débil</td>
+                <td>✅</td>
+                <td class="success">Captando tráfico</td>
+            </tr>
+            <tr>
+                <td>Traslados Paraguay</td>
+                <td>✅ Basic</td>
+                <td>⚠️ Débil</td>
+                <td>✅</td>
+                <td class="success">Captando tráfico</td>
+            </tr>
+            <tr>
+                <td>Teletrans</td>
+                <td>⚠️ Muy basic</td>
+                <td>❌</td>
+                <td>✅</td>
+                <td class="warning">Invisible</td>
+            </tr>
+        </table>
+
+        <p><strong>La oportunidad:</strong> Ningún competidor tiene una presencia digital premium. El primero en invertir correctamente domina.</p>
+
+        <hr class="divider">
+
+        <h2>4. Problemas Detectados</h2>
+        
+        <h3>Prioridad CRÍTICA</h3>
+        <table>
+            <tr>
+                <th>Problema</th>
+                <th>Impacto</th>
+                <th>Solución</th>
+            </tr>
+            <tr>
+                <td>Sitio "en construcción"</td>
+                <td class="critical">Pierde 100% de búsquedas</td>
+                <td>Website profesional</td>
+            </tr>
+            <tr>
+                <td>Sin Google Business Profile</td>
+                <td class="critical">Invisible en Maps</td>
+                <td>Crear y optimizar perfil</td>
+            </tr>
+            <tr>
+                <td>Sin SEO</td>
+                <td class="critical">No aparece en Google</td>
+                <td>Optimización técnica + contenido</td>
+            </tr>
+            <tr>
+                <td>Sin sistema de leads</td>
+                <td class="critical">Pierde consultas</td>
+                <td>CRM + automatizaciones</td>
+            </tr>
+            <tr>
+                <td>Sin tracking</td>
+                <td class="critical">Ciego comercial</td>
+                <td>Analytics + conversiones</td>
+            </tr>
+        </table>
+
+        <h3>Prioridad ALTA</h3>
+        <table>
+            <tr>
+                <th>Problema</th>
+                <th>Impacto</th>
+                <th>Solución</th>
+            </tr>
+            <tr>
+                <td>Sin contenido de valor</td>
+                <td class="warning">Cero autoridad</td>
+                <td>Blog + casos de éxito</td>
+            </tr>
+            <tr>
+                <td>Sin remarketing</td>
+                <td class="warning">No recupera visitas</td>
+                <td>Píxel + campañas</td>
+            </tr>
+            <tr>
+                <td>Sin Google Ads</td>
+                <td class="warning">No captura demanda directa</td>
+                <td>Campañas pagadas</td>
+            </tr>
+            <tr>
+                <td>Sin multilenguaje</td>
+                <td class="warning">Pierde clientes extranjeros</td>
+                <td>Esp/Eng/Por</td>
+            </tr>
+        </table>
+
+        <hr class="divider">
+
+        <h2>5. Lo que necesita Síbarys</h2>
+        <h3>Infraestructura digital completa</h3>
+
+        <div class="diagram">┌─────────────────────────────────────────────────────────┐
+│                    SÍBARYS DIGITAL                      │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│   ┌─────────┐    ┌──────────┐    ┌──────────────────┐  │
+│   │  WEB    │───▶│   SEO    │───▶│   GOOGLE ADS    │  │
+│   │Premium  │    │  Local   │    │   + Remarketing  │  │
+│   └─────────┘    └──────────┘    └──────────────────┘  │
+│        │                                    │           │
+│        ▼                                    ▼           │
+│   ┌─────────┐                      ┌──────────────┐    │
+│   │ GOOGLE  │                      │     CRM      │    │
+│   │ BUSINESS│                      │  + Leads     │    │
+│   │ PROFILE │                      └──────────────┘    │
+│   └─────────┘                                         │
+│                                                         │
+└─────────────────────────────────────────────────────────┘</div>
+
+        <hr class="divider">
+
+        <h2>6. ROI Proyectado</h2>
+        <h3>Con inversión inteligente</h3>
+
+        <table>
+            <tr>
+                <th>Escenario</th>
+                <th style="text-align:right">Inversión inicial</th>
+                <th style="text-align:right">Ingreso recuperable/año</th>
+                <th style="text-align:right">ROI 12 meses</th>
+            </tr>
+            <tr>
+                <td>Conservador</td>
+                <td style="text-align:right">₲ 25,000,000</td>
+                <td style="text-align:right">₲ 36,000,000</td>
+                <td style="text-align:right"><strong>44%</strong></td>
+            </tr>
+            <tr style="background: rgba(201,169,98,0.1)">
+                <td><strong>Recomendado</strong></td>
+                <td style="text-align:right"><strong>₲ 50,000,000</strong></td>
+                <td style="text-align:right"><strong>₲ 120,000,000</strong></td>
+                <td style="text-align:right"><strong style="color: var(--gold)">140%</strong></td>
+            </tr>
+            <tr>
+                <td>Acelerado</td>
+                <td style="text-align:right">₲ 80,000,000</td>
+                <td style="text-align:right">₲ 200,000,000+</td>
+                <td style="text-align:right"><strong style="color: #2ecc71">200%+</strong></td>
+            </tr>
+        </table>
+
+        <p><strong>Break-even estimado:</strong> 3-6 meses con el paquete correcto.</p>
+
+        <hr class="divider">
+
+        <h2>7. Próximos Pasos</h2>
+
+        <ul class="steps">
+            <li class="done"><span class="step-num">✓</span> Diagnóstico completado (este documento)</li>
+            <li><span class="step-num">2</span> Seleccionar plan de implementación</li>
+            <li><span class="step-num">3</span> Kickoff con relevamiento de marca</li>
+            <li><span class="step-num">4</span> Desarrollo del website</li>
+            <li><span class="step-num">5</span> Activación de presencia Google</li>
+            <li><span class="step-num">6</span> Campañas de captación</li>
+        </ul>
+
+    </div>
+
+    <div class="footer">
+        <p><strong>Próximo paso:</strong> Revisar la propuesta comercial con planes adaptados a cada presupuesto.</p>
+    </div>
+</body>
+</html>
