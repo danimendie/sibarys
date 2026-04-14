@@ -5,7 +5,7 @@
 ---
 
 **Fecha:** 14 de abril de 2026  
-**Preparado por:** Agencia Digital  
+**Preparado por:** Agencia Maite Media  
 **Validez:** 30 días
 
 ---
@@ -18,64 +18,79 @@ Síbarys tiene un dominio registrado, redes sociales y posicionamiento en el mer
 - Sin sistema de captación de leads
 - Sin presencia en Google Business Profile
 
-**Costo de inacción: ₲ 156,000,000/año** (~USD 22,000)
+**Costo de inacción: ₲ 156,000,000/año**
 
 ---
 
 # 2. PLANES DE IMPLEMENTACIÓN
 
-## PLAN ESENCIAL — Activación Rápida
-**Ideal para: Salir al mercado en 4-6 semanas**
+## PLAN ARRANQUE DIGITAL — Activación Rápida
+**Ideal para: Salir al mercado en 3-4 semanas**
 
 | Servicio | Detalle |
 |----------|---------|
-| Website 5 páginas | Home, Servicios, Flota, Nosotros, Contacto |
-| Diseño responsive | Mobile-first, profesional |
-| WhatsApp + Formulario | Sistema de contacto básico |
-| Google Business Profile | Configuración completa |
-| SEO técnico | Meta tags, schema, sitemap |
-| SSL + Hosting | Certificado de seguridad |
+| Landing page premium | Diseño UX/UI personalizado |
+| Mobile responsive | Enfoque mobile-first |
+| WhatsApp + Formulario | Sistema de contacto |
+| SEO on-page básico | Meta tags, schema markup |
+| Google Analytics | Configuración completa |
+| SSL + Dominio | Certificado de seguridad |
 
 | Inversión | Timeline |
 |-----------|----------|
-| **₲ 18,000,000** | **4-6 semanas** |
+| **₲ 4,500,000** | **3-4 semanas** |
 
 ---
 
-## PLAN PROFESIONAL — Posicionamiento Completo
-**Ideal para: Dominar la categoría en 8-12 semanas**
+## PLAN PROFESIONAL PYME — Presencia Completa
+**Ideal para: Web institucional con todos los servicios**
 
 | Servicio | Detalle |
 |----------|---------|
-| Todo lo del Plan Esencial | Base completa |
+| Web hasta 5 páginas | Home, Servicios, Flota, Nosotros, Contacto |
+| Diseño UX/UI premium | Personalizado |
+| SEO completo | Técnico + on-page |
+| Google Business Profile | Configuración y optimización |
+| WhatsApp Business | Integración completa |
+| Capacitación | Manual de uso |
+
+| Inversión | Timeline |
+|-----------|----------|
+| **₲ 8,500,000** | **6-8 semanas** |
+
+---
+
+## PLAN CORPORATIVO — Solución Integral
+**Ideal para: Dominio total de la presencia digital**
+
+| Servicio | Detalle |
+|----------|---------|
+| Web hasta 8 páginas | Todo lo del plan Profesional |
 | Multilenguaje | Español / Inglés / Portugués |
-| CRM básico | Gestión de leads y seguimientos |
-| Email automático | Respuestas y confirmaciones |
-| SEO avanzado | Contenido + citaciones locales |
-| Remarketing | Píxel Meta + Google Ads |
+| CRM básico | Gestión de leads |
+| Remarketing | Píxel Meta + Google |
+| Google Ads | Gestión durante 2 meses |
+| SEO avanzado | Contenido + citaciones |
 
 | Inversión | Timeline |
 |-----------|----------|
-| **₲ 35,000,000** | **8-12 semanas** |
+| **₲ 15,000,000** | **8-12 semanas** |
 
 ---
 
-## PLAN PREMIUM — Growth Partner
-**Ideal para: Escalar y mantener crecimiento**
+## PLAN MANTENIMIENTO — Seguimiento Mensual
+**Ideal para: Mantener y optimizar continuamente**
 
 | Servicio | Detalle |
 |----------|---------|
-| Todo lo del Plan Profesional | Implementación completa |
-| Reservas online | Sistema de booking con pagos |
-| Capacitación | Training al equipo interno |
-| SEO mensual | Gestión de contenido continua |
-| Google Ads | Campañas optimizadas por 6 meses |
-| Reportes | Dashboard de métricas mensual |
-| Soporte prioritario | Atención preferencial |
+| Soporte técnico | Actualizaciones y ajustes |
+| SEO mensual | Contenido y optimizaciones |
+| Reporting | Métricas y análisis |
+| Atención prioritaria | Canal directo |
 
 | Inversión | Timeline |
 |-----------|----------|
-| **₲ 12,000,000/mes** | **6 meses mínimo** |
+| **₲ 2,500,000/mes** | **Mes a mes** |
 
 ---
 
@@ -83,9 +98,10 @@ Síbarys tiene un dominio registrado, redes sociales y posicionamiento en el mer
 
 | Plan | Inversión | Tiempo | Ideal para |
 |------|----------|--------|------------|
-| **Esencial** | ₲ 18,000,000 | 4-6 semanas | Salir rápido |
-| **Profesional** | ₲ 35,000,000 | 8-12 semanas | Dominar categoría |
-| **Premium** | ₲ 12,000,000/mes | 6 meses | Escalar continuo |
+| **Arranque** | ₲ 4,500,000 | 3-4 semanas | Salir rápido |
+| **Profesional** | ₲ 8,500,000 | 6-8 semanas | Presencia completa |
+| **Corporativo** | ₲ 15,000,000 | 8-12 semanas | Dominio digital |
+| **Mantenimiento** | ₲ 2,500,000/mes | Mes a mes | Optimización continua |
 
 ---
 
@@ -95,9 +111,9 @@ Síbarys tiene un dominio registrado, redes sociales y posicionamiento en el mer
 
 | Inversión | Recuperación anual estimada | ROI 12 meses |
 |-----------|---------------------------|--------------|
-| ₲ 35,000,000 | ₲ 84,000,000 | **140%** |
+| ₲ 8,500,000 | ₲ 50,000,000 | **488%** |
 
-**Break-even:** 4-5 meses
+**Break-even:** 2-3 meses
 
 ---
 
@@ -105,10 +121,10 @@ Síbarys tiene un dominio registrado, redes sociales y posicionamiento en el mer
 
 - ✅ Dominio y hosting por 1 año
 - ✅ SSL certificado
-- ✅ Correos profesionales
-- ✅ Google Analytics configurado
 - ✅ WhatsApp Business integrado
+- ✅ Google Analytics configurado
 - ✅ Soporte técnico por 30 días post-lanzamiento
+- ✅ 50% anticipo, 50% a la entrega
 
 ---
 
@@ -124,9 +140,9 @@ Síbarys tiene un dominio registrado, redes sociales y posicionamiento en el mer
 
 # 7. CONTACTO
 
-**Agencia Digital**  
-WhatsApp: +595 981 234 567  
-Email: info@agencia.com.py
+**Agencia Maite Media**  
+WhatsApp: +595 972 901 942  
+Email: hola@agenciamaitemedia.com
 
 ---
 
